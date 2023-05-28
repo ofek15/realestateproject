@@ -1,0 +1,80 @@
+#example{
+    align-self: center;
+    width: 345px;
+    height: 385px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 30px -12px;
+    transition: transform 0.3s ease;
+}
+#example:hover{
+    transform: scale(1.1);
+}
+.product-img-div{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.product-description{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px ;
+    color: hsl(128.23deg 52.1% 46.67%);
+}
+.product-img-img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Hometype-style{
+   font-size: 18px;
+}
+.Address-style{
+   font-size: 20px;
+   text-align: center;
+}
+.Price-style{
+   font-size: 15px;
+}
+.Bath-style{
+    font-size: 20px;
+}
+.saveproperty-btn{
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: hsla(128, 52%, 47%, 0.819);
+    color:white;
+    border-radius: 15px;
+    border: hsla(128, 52%, 47%, 0.819) solid;
+    display: flex;
+    align-items: center;
+
+}
+.saveproperty-btn:hover{
+    background-color: white;
+    color: rgba(0, 128, 0, 0.815);
+}
+#location-icon{
+    color: hsla(128, 52%, 47%, 0.819);
+}
+a:link{
+    text-decoration: none;
+}
+.heart-icon-first{
+   color: blue;
+   margin-right: 4px;
+}
+.heart-icon-second{
+    color:red;
+    margin-right: 4px;
+}

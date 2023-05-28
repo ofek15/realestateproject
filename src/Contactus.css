@@ -1,0 +1,46 @@
+#contactus-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#contactus-form{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    color: hsla(128, 52%, 47%, 0.819);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7vh;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#submitemail-btn{
+    background-color: hsla(128, 52%, 47%, 0.819);
+    color:white;
+    border-radius: 10px;
+    border: hsla(128, 52%, 47%, 0.819) solid;
+    width: 50px;
+}
+#submitemail-btn:hover{
+    background-color: white;
+    color: rgba(0, 128, 0, 0.815);
+}
+.input-form{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:625px) { 
+    #contactus-form{
+        width: 80%;
+        height: 60vh;
+    }
+    .input-form{
+        width: 70%;
+        height: 5vh;
+    }
+}

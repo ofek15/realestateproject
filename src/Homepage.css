@@ -1,0 +1,14 @@
+body{
+    background-color: hsl(0deg 0% 90.2%);
+}
+#card-container{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Homepage-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

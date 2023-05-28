@@ -1,0 +1,14 @@
+#filter-card-container{
+    position: absolute;
+    display: none;
+}
+#filter-div:hover > #filter-card-container{
+    display: block;
+}
+#filter-div:hover{
+    color: white;
+}
+.filtercard-btn{
+    border-radius: 10px;
+    margin: 2px;
+}

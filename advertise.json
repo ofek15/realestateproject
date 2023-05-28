@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "sentence": "I’m an agent or broker",
+      "imgsrc1": "https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/2/2020/05/Agent-2x-1be0e4.png"
+    },
+    {
+      "sentence": "I’m a property manager",
+      "imgsrc1": "https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/2/2020/05/Property-manager-2x-865bcd.png"
+    },
+    {
+      "sentence": "I’m a landlord",
+      "imgsrc1": "https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/2/2020/05/Landlord-2x-14539b.png"
+    },
+    {
+      "sentence": "I’m a lender/loan officer",
+      "imgsrc1": "https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/2/2020/05/Lender-2x-2c744a.png"
+    },
+    {
+      "sentence": "I’m a builder",
+      "imgsrc1": "https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/2/2020/05/Builder-2x-d8b9c6.png"
+    },
+    {
+      "sentence": "I'm a local advertiser",
+      "imgsrc1": "https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/2/2020/05/Brand-advertiser-2x-ba73a6.png"
+    }
+  ]
+}
