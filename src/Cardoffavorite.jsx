@@ -9,7 +9,7 @@ function Cardoffavorite(props){
             <div className="Address-style">{props.data.country1},{props.data.state1},{props.data.city1},{props.data.streetaddress1}
              <a href={`https://www.google.com/maps/place/${props.data.fulladress1}`} target="_blank"> <i className="fa fa-map-marker" id='location-icon' ></i> </a>
              </div>
-            <div className="Bath-style">  baths:{props.data.bath1} <i className='fas fa-bath'></i>, bedrooms:{props.data.bad1} <i className='fas fa-bed'></i></div>
+            <div className="Bath-style">  baths:{props.data.bath1} <img className='icon8' src="https://img.icons8.com/ios-filled/50/40C057/shower-and-tub.png" alt="shower-and-tub"/>, bedrooms:{props.data.bad1} <img className='icon8' src="https://img.icons8.com/ios-filled/50/40C057/bed.png" alt="bed"/></div>
             <div className="Price-style"> Price:{props.data.price1} $, Rent:{props.data.rent1} $</div>
         </div>
         </div>

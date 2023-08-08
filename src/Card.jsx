@@ -64,7 +64,7 @@ function Card(props) {
                    <div className="Address-style">{countryobj},{stateobj},{cityobj},{streetAddressobj}
                     <a href={`https://www.google.com/maps/place/${fulladress}`} target="_blank"> <i className="fa fa-map-marker" id='location-icon' ></i> </a>
                     </div>
-                   <div className="Bath-style">  baths:{bathobj} <i className='fas fa-bath'></i>, bedrooms:{badobj} <i className='fas fa-bed'></i></div>
+                   <div className="Bath-style">  baths:{bathobj} <img className='icon8' src="https://img.icons8.com/ios-filled/50/40C057/shower-and-tub.png" alt="shower-and-tub"/>, bedrooms:{badobj} <img className='icon8' src="https://img.icons8.com/ios-filled/50/40C057/bed.png" alt="bed"/></div>
                    <div className="Price-style"> Price:{priceinstring} $, Rent:{rentinstring} $</div>
                    <button className="saveproperty-btn" onClick={()=>pushIntoFav()}> <i className={`fa fa-heart${isCardInFav()?' heart-icon-second':' heart-icon-first'}`}></i>  Save property</button>
                </div>
